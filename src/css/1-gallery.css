@@ -1,0 +1,11 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 24px 156px;
+    gap: 24px;
+}
+
+.gallery-item {
+    width: calc((100% - 24px*2)/3);
+}
